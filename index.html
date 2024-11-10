@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag & Drop </title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+   <div>
+      <div class="row"> 
+         <div class="col-header start">1 slot</div>
+         <div class="col-header progress">2 slot</div>
+         <div class="col-header done">3 slot</div>
+      </div>
+
+         <div class="row">
+            <div class="placeholder" id="slot1">
+               <div class="item" id="item1" draggable="true"> Peretashi menya1</div>
+               <div class="item" id="item2" dragable="true"> Peretashi menya2</div>
+               <div class="item" id="item3" dragable="true"> Peretashi menya3</div>
+            </div>
+                <div class="placeholder" id="slot2"></div>
+                <div class="placeholder" id="slot3"></div>
+         </div>
+   </div>
+   <script src="app.js"></script>
+</body>
+</html>  
+
+<!-- for (const item of items){
+   item.addEventListener('dragstart', dragstart)
+   item.addEventListener('dragend', dragend) -->
